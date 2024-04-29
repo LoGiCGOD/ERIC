@@ -1,19 +1,18 @@
 # ERIC
 
+# How to Run the Application
 
-**How to Run the application**
----------------------------------
+## Continuous Integration (CI)
 
-*CI*
-1)you need to have a .github/workflows/python-app.yml file
-2) once you write it github will automatically run the CI
+1. You need to have a `.github/workflows/python-app.yml` file.
+2. Once you write it, GitHub will automatically run the CI.
 
-*CD*
+## Continuous Deployment (CD)
 
-1) You need to have Heroku account
-2) using the Heroku CLI type command "heroku login"
-3)Then you run the command "heroku create"
-4)use the command "heroku authorizations:create" to create a token to push the code to heroku
-5)Store the token in github secrets
-6)Store the heroku app name as well in secrets
+1. You need to have a Heroku account.
+2. Using the Heroku CLI, type the command `heroku login`.
+3. Then, run the command `heroku create`.
+4. Use the command `heroku authorizations:create` to create a token to push the code to Heroku.
+5. Store the token in GitHub secrets.
+6. Store the Heroku app name as well in secrets.
 
